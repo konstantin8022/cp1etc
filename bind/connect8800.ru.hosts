@@ -1,0 +1,12 @@
+$ttl 3600
+connect8800.ru.disabled.	IN	SOA	ns1.pr-solution.ru. root.ns1.pr-solution.ru. (
+			1439540052
+			10800
+			3600
+			604800
+			38400 )
+connect8800.ru.disabled.	IN	NS	ns1.pr-solution.ru.
+connect8800.ru.disabled.	IN	NS	ns2.pr-solution.ru.
+connect8800.ru.disabled.	IN	TXT	"v=spf1 a mx a:connect8800.ru ip4:31.131.250.92 ?all"
+*.connect8800.ru.disabled.	IN	A	31.131.250.92
+connect8800.ru.disabled.	IN	A	31.131.250.92

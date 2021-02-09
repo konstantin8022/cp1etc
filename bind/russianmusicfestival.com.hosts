@@ -1,0 +1,12 @@
+$ttl 3600
+russianmusicfestival.com.	IN	SOA	ns1.pr-solution.ru. root.ns1.pr-solution.ru. (
+			1539604847
+			10800
+			3600
+			604800
+			38400 )
+russianmusicfestival.com.	IN	NS	ns1.pr-solution.ru.
+russianmusicfestival.com.	IN	NS	ns2.pr-solution.ru.
+russianmusicfestival.com.	IN	TXT	"v=spf1 a mx a:russianmusicfestival.com ip4:31.131.250.92 ?all"
+*.russianmusicfestival.com.	IN	A	31.131.250.92
+russianmusicfestival.com.	IN	A	31.131.250.92

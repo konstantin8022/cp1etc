@@ -1,0 +1,15 @@
+$ttl 3600
+@	IN	SOA	ns1.pr-solution.ru. root.ns1.pr-solution.ru. (
+			1485777440
+			10800
+			3600
+			604800
+			38400 )
+tasteoflove24.ru.	IN	NS	ns1.rsnx.ru.
+tasteoflove24.ru.	IN	NS	ns2.rsnx.ru.
+tasteoflove24.ru.	IN	TXT	"v=spf1 a mx a:tasteoflove24.ru ip4:31.131.250.92 ?all"
+tasteoflove24.ru.	IN	MX	10 mx.yandex.net.
+yamail-d2f25d12b5f6.tasteoflove24.ru.	IN	CNAME	mail.yandex.ru.
+dev.tasteoflove24.ru.	IN	A	78.46.105.170
+tasteoflove24.ru.	IN	A	89.253.233.202
+*.tasteoflove24.ru.	IN	A	89.253.233.202

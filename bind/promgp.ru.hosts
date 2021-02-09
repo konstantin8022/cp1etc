@@ -1,0 +1,16 @@
+$ttl 3600
+@	IN	SOA	ns1.pr-solution.ru. root.ns1.pr-solution.ru. (
+			1401448036
+			10800
+			3600
+			604800
+			38400 )
+@	IN	NS	ns1.pr-solution.ru.
+@	IN	NS	ns2.pr-solution.ru.
+promgp.ru.	IN	TXT	"v=spf1 a mx a:promgp.ru ip4:31.131.250.92 ?all"
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92
+promgp.ru.	IN	MX	20 ALT1.ASPMX.L.GOOGLE.COM
+promgp.ru.	IN	MX	30 ASPMX2.GOOGLEMAIL.COM
+promgp.ru.	IN	MX	30 ASPMX5.GOOGLEMAIL.COM
+promgp.ru.	IN	MX	10 mx.yandex.net.

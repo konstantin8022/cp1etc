@@ -1,0 +1,12 @@
+$ttl 3600
+surgutmall.com.	IN	SOA	ns1.pr-solution.ru. root.ns1.pr-solution.ru. (
+			1416243188
+			10800
+			3600
+			604800
+			38400 )
+surgutmall.com.	IN	NS	ns1.pr-solution.ru.
+surgutmall.com.	IN	NS	ns2.pr-solution.ru.
+surgutmall.com.	IN	TXT	"v=spf1 a mx a:surgutmall.com ip4:31.131.250.92 ?all"
+*.surgutmall.com.	IN	A	31.131.250.92
+surgutmall.com.	IN	A	31.131.250.92

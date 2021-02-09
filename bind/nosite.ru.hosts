@@ -1,0 +1,12 @@
+$ttl 3600
+@	IN	SOA	ns1.pr-solution.ru. root.ns1.pr-solution.ru. (
+			1438784782
+			10800
+			3600
+			604800
+			38400 )
+@	IN	NS	ns1.pr-solution.ru.
+@	IN	NS	ns2.pr-solution.ru.
+nosite.ru.	IN	TXT	"v=spf1 a mx a:nosite.ru ip4:31.131.250.92 ?all"
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92

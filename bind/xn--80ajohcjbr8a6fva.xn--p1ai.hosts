@@ -1,0 +1,12 @@
+$ttl 3600
+xn--80ajohcjbr8a6fva.xn--p1ai.	IN	SOA	ns1.pr-solution.ru. root.ns1.pr-solution.ru. (
+			1503415923
+			10800
+			3600
+			604800
+			38400 )
+xn--80ajohcjbr8a6fva.xn--p1ai.	IN	NS	ns1.pr-solution.ru.
+xn--80ajohcjbr8a6fva.xn--p1ai.	IN	NS	ns2.pr-solution.ru.
+xn--80ajohcjbr8a6fva.xn--p1ai.	IN	TXT	"v=spf1 a mx a:xn--80ajohcjbr8a6fva.xn--p1ai ip4:31.131.250.92 ?all"
+*.xn--80ajohcjbr8a6fva.xn--p1ai.	IN	A	31.131.250.92
+xn--80ajohcjbr8a6fva.xn--p1ai.	IN	A	31.131.250.92

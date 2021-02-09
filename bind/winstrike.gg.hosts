@@ -1,0 +1,40 @@
+$ttl 3600
+@	IN	SOA	ns1.pr-solution.ru. root.ns1.pr-solution.ru. (
+			1507714725
+			10800
+			3600
+			604800
+			38400 )
+@	IN	NS	ns1.pr-solution.ru.
+@	IN	NS	ns2.pr-solution.ru.
+winstrike.gg.	IN	TXT	"v=spf1 a mx a:winstrike.gg ip4:31.131.250.92 ?all"
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92
+winstrike.gg.	IN	A	31.131.250.92
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92
+dev.winstrike.gg.	IN	A	31.131.250.92
+dev.winstrike.gg.	IN	NS	ns1.pr-solution.ru.
+dev.winstrike.gg.	IN	NS	ns2.pr-solution.ru.
+*.dev.winstrike.gg.	IN	A	31.131.250.92
+winstrike.gg.	1s	IN	TXT	"dev.winstrike.ru _acme-challenge.dev.winstrike.ru with the value sqWtNq1TY1abh6JmFfuS2Q8s1AhXx7S6qKeIJT48rO4"
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92

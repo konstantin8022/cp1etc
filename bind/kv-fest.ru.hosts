@@ -1,0 +1,14 @@
+$ttl 3600
+@	IN	SOA	ns1.pr-solution.ru. root.ns1.pr-solution.ru. (
+			1531488532
+			10800
+			3600
+			604800
+			38400 )
+@	IN	NS	ns1.pr-solution.ru.
+@	IN	NS	ns2.pr-solution.ru.
+kv-fest.ru.	IN	TXT	"v=spf1 a mx a:kv-fest.ru ip4:31.131.250.92 ?all"
+*  IN    A   31.131.250.92
+@  IN    A   31.131.250.92
+kv-fest.ru.	IN	TXT	"yandex-verification: 9ad38f9ef759d427"
+kv-fest.ru.	IN	MX	10 mx.yandex.net.

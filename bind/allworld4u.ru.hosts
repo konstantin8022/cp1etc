@@ -1,0 +1,18 @@
+$ttl 3600
+@	IN	SOA	ns1.pr-solution.ru. root.ns1.pr-solution.ru. (
+			1423006708
+			10800
+			3600
+			604800
+			38400 )
+@	IN	NS	ns1.pr-solution.ru.
+@	IN	NS	ns2.pr-solution.ru.
+allworld4u.ru.	IN	TXT	"v=spf1 a mx a:allworld4u.ru ip4:31.131.250.92 ip4:31.131.250.93 ?all"
+*  IN    A   31.131.250.93
+@  IN    A   31.131.250.93
+*.allworld4u.ru.	IN	TXT	google-site-verification=axj0I_hHJ0_wsskJ1OAV3UbuDxZdv76AN0mp2fL-k6k
+allworld4u.ru.	IN	MX	1 ASPMX.L.GOOGLE.COM.
+allworld4u.ru.	IN	MX	10 ALT4.ASPMX.L.GOOGLE.COM.
+allworld4u.ru.	IN	MX	10 ALT3.ASPMX.L.GOOGLE.COM.
+allworld4u.ru.	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+allworld4u.ru.	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.

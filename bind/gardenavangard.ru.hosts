@@ -1,0 +1,16 @@
+$ttl 3600
+gardenavangard.ru.	IN	SOA	ns1.pr-solution.ru. root.ns1.pr-solution.ru. (
+			1503923671
+			10800
+			3600
+			604800
+			38400 )
+gardenavangard.ru.	IN	NS	ns1.pr-solution.ru.
+gardenavangard.ru.	IN	NS	ns2.pr-solution.ru.
+gardenavangard.ru.	IN	TXT	"v=spf1 a mx a:gardenavangard.ru ip4:31.131.250.92 ?all"
+*.gardenavangard.ru.	IN	A	31.131.250.92
+gardenavangard.ru.	IN	A	31.131.250.92
+www.gardenavangard.ru.	IN	A	31.131.250.92
+admin.gardenavangard.ru.	IN	A	31.131.250.92
+webmail.gardenavangard.ru.	IN	A	31.131.250.92
+*.gardenavangard.ru.	IN	MX	10 aspmx.l.google.com.
